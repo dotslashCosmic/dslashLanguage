@@ -1,4 +1,4 @@
-dslash.py is the interpreter/lexer (will create a c interpreter eventually)
+dslash.py/dslash.cs is a Python and C# interpreter/lexer
 
 dslash.udl.xml is a user defined language(for notepad++)
 
