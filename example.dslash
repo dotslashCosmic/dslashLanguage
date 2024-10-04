@@ -1,7 +1,7 @@
-# Sample DotSlash Program
+#* Sample DotSlash Program
 Author: dotslashCosmic
 This should be commented as well, because of
-##
+*#
 
 # Variables
 let x = 10
