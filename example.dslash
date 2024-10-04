@@ -1,0 +1,63 @@
+# Sample DotSlash Program
+Author: dotslashCosmic
+This should be commented as well, because of
+##
+
+# Variables
+let x = 10
+let y = 20.5
+let name = "DotSlash"
+let is_active = true
+let items = [1, 2, 3, 4, 5]
+let person = {name: "Alice", age: 30}
+
+# Function
+fn add(a, b) {
+    give a + b
+}
+
+# Class
+type Person {
+    new(name, age) {
+        this.name = name
+        this.age = age
+    }
+    greet() {
+        o("Hello, " + this.name)
+    }
+}
+
+# Object
+let p = Person("Bob", 25)
+p.greet()
+
+# Control Structures
+if x > y then
+    o("x is greater than y")
+elif x < y then
+    o("x is less than y")
+else
+    o("x is equal to y")
+end
+
+# Loop
+loop item in items do
+    o(item)
+end
+
+while is_active do
+    o("Active")
+    is_active = false
+end
+
+# Exception Handling
+try {
+    let result = add(x, y)
+    o("Result: " + result)
+} Error {
+    o("An error occurred")
+}
+
+# I/O
+let user_input = i("Enter something: ")
+o("You entered: " + user_input)
